@@ -1,6 +1,7 @@
 {
     "name": "victorap93/powerbiembedded",
     "version": "0.0.1",
+    "license": "MIT",
     "require": {
         "guzzlehttp/guzzle": "^7.4"
     },
