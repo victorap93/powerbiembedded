@@ -1,0 +1,18 @@
+{
+    "name": "victorap93/powerbiembedded",
+    "version": "0.0.1",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "victorap93\\PowerBiEmbedded\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victor Aparecido Barbato Rossi",
+            "email": "victorap93@gmail.com"
+        }
+    ]
+}
