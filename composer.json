@@ -1,19 +1,29 @@
 {
     "name": "victorap93/powerbiembedded",
-    "version": "0.0.2",
+    "description": "PowerBIEmbedded is an easy way to obtain the necessary token to build the Power BI Embedded interface",
+    "keywords": [
+        "Microsoft",
+        "Power BI Embedded",
+        "token",
+        "report",
+        "dashboard"
+    ],
+    "version": "0.1.0",
     "license": "MIT",
     "require": {
+        "php": "^5.5",
         "guzzlehttp/guzzle": "^6.5"
     },
     "autoload": {
         "psr-4": {
-            "victorap93\\PowerBiEmbedded\\": "src/"
+            "victorap93\\PowerBIEmbedded\\": "src/"
         }
     },
     "authors": [
         {
             "name": "Victor Aparecido Barbato Rossi",
-            "email": "victorap93@gmail.com"
+            "email": "victorap93@gmail.com",
+            "homepage": "https://github.com/victorap93"
         }
     ]
 }

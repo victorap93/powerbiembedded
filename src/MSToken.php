@@ -1,6 +1,6 @@
 <?php
 
-namespace victorap93\PowerBiEmbedded;
+namespace victorap93\PowerBIEmbedded;
 
 class MSToken
 {
