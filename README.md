@@ -1,4 +1,4 @@
-# Power BI Embedded
+# PowerBIEmbedded
 
 [![Latest Version](https://img.shields.io/github/release/victorap93/powerbiembedded.svg?style=flat-square)](https://github.com/victorap93/powerbiembedded/releases)
 [![Total Downloads](https://img.shields.io/packagist/dt/victorap93/powerbiembedded.svg?style=flat-square)](https://packagist.org/packages/victorap93/powerbiembedded)
