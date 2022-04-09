@@ -1,12 +1,13 @@
-# PowerBIEmbedded
+# Power BI Embedded
 
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 [![Latest Version](https://img.shields.io/github/release/victorap93/powerbiembedded.svg?style=flat-square)](https://github.com/victorap93/powerbiembedded/releases)
 [![Total Downloads](https://img.shields.io/packagist/dt/victorap93/powerbiembedded.svg?style=flat-square)](https://packagist.org/packages/victorap93/powerbiembedded)
 
-PowerBIEmbedded was created to facilitate the obtention of the necessary token to build its interface.
+Power BI Embedded is an easy way to obtain the necessary token to build the Power BI Embedded interface
 
 
-## Installing PowerBIEmbedded
+## Installation
 
 The recommended way to install this is through
 [Composer](https://getcomposer.org/).
@@ -15,13 +16,14 @@ The recommended way to install this is through
 composer require victorap93/powerbiembedded
 ```
 
+## How to use
 
-## Get the embedding parameter values
+### Get the nedded parameters:
 
 Read this [step](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core#step-5---get-the-embedding-parameter-values) to know how to get neded params.
 
 
-## Get Embedded Token by using MS Client Secret
+### Get Embedded Token by using MS Client Secret:
 
 ```php
 use \victorap93\PowerBIEmbedded\MSToken;
@@ -43,7 +45,7 @@ echo $embedded_token->token;
 ```
 
 
-## Get Embedded Token by using MS Username and Password
+### Get Embedded Token by using MS Username and Password:
 
 ```php
 use \victorap93\PowerBIEmbedded\MSToken;
@@ -75,6 +77,12 @@ echo $embedded_token->token;
 - [Request Body](https://docs.microsoft.com/en-us/rest/api/power-bi/embed-token/datasets-generate-token-in-group#request-body)
 
 
+## More
+You can see full implementation with these two projects: 
+* [PHP API](https://github.com/victorap93/powerbiembedded-php-api)
+* [React APP](https://github.com/victorap93/powerbiembedded-react-app)
+
+
 ## License
 
-PowerBIEmbedded is made available under the MIT License (MIT). Please see [License File](LICENSE) for more information.
+Power BI Embedded is made available under the MIT License (MIT). Please see [License File](LICENSE) for more information.
